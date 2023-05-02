@@ -1,24 +1,45 @@
 import { useState } from 'react'
-import styled from '@emotion/styled'
+import React from 'react'
 
-const Heading = styled.h1 `
-  font-family: 'Lato', sans-serif;
-  Color: #FFF;
-`
 
-const Contenedor = styled.div`
-  max-width: 900px;
-  margin: 0 auto;
-  width: 90%;
-`
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import Navbar from './components/Navbar'
+import Home from "./components/Home"
+import Product from "./components/Product"
+import Contact from "./components/Contact"
+
+
 
 function App() {
   
 
   return (
-    <Contenedor>
-    <Heading>Wenasss</Heading>
-    </Contenedor>
+    <>
+      <Router>
+        <Navbar />
+        
+        <Switch>
+          <Route path='/' compoent={Home} exact>
+            <Home />
+          </Route>
+          <Route path='/product' compoent={Product} exact>
+            <Product />
+          </Route>
+          <Route path='/contact' compoent={Contact} exact>
+            <Contact />
+          </Route>
+          
+        </Switch>
+      </Router>
+
+
+      
+
+
+    </>
+    
+
+  
   )
 }
 
