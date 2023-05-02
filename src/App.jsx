@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import Home from "./components/Home"
 import Product from "./components/Product"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 
 
@@ -17,7 +18,6 @@ function App() {
     <>
       <Router>
         <Navbar />
-        
         <Switch>
           <Route path='/' compoent={Home} exact>
             <Home />
@@ -28,14 +28,11 @@ function App() {
           <Route path='/contact' compoent={Contact} exact>
             <Contact />
           </Route>
-          
         </Switch>
       </Router>
 
 
-      
-
-
+      <Footer />
     </>
     
 

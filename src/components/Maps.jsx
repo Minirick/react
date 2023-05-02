@@ -19,10 +19,11 @@ const Imagen = styled.img`
     }
 
 `
-const Texto = styled.h2 `
-    font-family: 'Lato', sans-serif;
+const Texto = styled.p `
+   
     color: #000000;
     margin: 50px 120px;
+    font-size:20px;
 
     @media screen and (max-width: 1160px) {
 
@@ -50,8 +51,6 @@ export const Maps = () => {
   return (
 <>
     <Contenedor2>
-    
-
         <Texto> 
             Es un gusto poder ayudar, estamos ubicados
             en las pricipales ciudades del pais, ofreciendo

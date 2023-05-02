@@ -21,4 +21,14 @@
     background-color: rgb(80, 76, 76);
   }
   
-  
+  @media screen and (max-width: 1160px) {
+
+  }
+  @media screen and (max-width: 950px) {
+
+  }
+  @media screen and (max-width: 768px) {
+    .button_login{
+      margin: 10px 100px;
+    }
+  }

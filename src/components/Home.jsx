@@ -3,6 +3,12 @@ import styled from '@emotion/styled'
 import CardP from "./Card_product"
 import Maps from "./Maps"
 
+import ImagenPastel from "../img/pastel.png"
+import ImagenEmpanada from "../img/empanada.png"
+import ImagenArepa from "../img/arepa.png"
+
+import { Link } from "react-router-dom"
+
 
 const Contenedor = styled.div`
   width: 100%;
@@ -31,11 +37,15 @@ const Home = () => {
       </section>
 
       <Contenedor>
-        <CardP title="Empanada Dorada" price="$1.500"/>	 
-        <CardP title="Pastel Melo" price="$2.500"/>
-        <CardP title="Butifarra Kool" price="$5.000"/>
+        <CardP title="Empanada Dorada" price="$1.500" imagen={ImagenEmpanada}  />	 
+        <CardP title="Pastel Melo" price="$2.500 c/u" imagen={ImagenPastel} />
+        <CardP title="Arepa Kool" price="$2.000 c/u" imagen={ImagenArepa} />
         <Heading>
-            <a>Ver todos los productos</a>
+        
+        <Link to='/product'>
+          <a>Ver todos los productos</a>
+        </Link>
+            
         </Heading> 	  	
       </Contenedor>
     
@@ -44,8 +54,6 @@ const Home = () => {
         <Maps/>
      
     
-     
-
     </>
   )
 }

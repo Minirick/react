@@ -1,13 +1,11 @@
 import React from 'react'
 import styled from '@emotion/styled'
-
 import "../css/card_product.css"
-import ImagenEmpanada from "../img/empanada.png"
 
 
 const Imagen = styled.img`
     max-width: 400px;
-    width: 50%;
+    width: 100%;
     margin: 100px auto 0 auto;
     display: block;
 `
@@ -22,21 +20,18 @@ const Heading = styled.a `
 
 export const Card_product = (props) => {
   return (
-    <div class="card">
-
-    <div class="imgBox">
-        <Imagen
-            src={ImagenEmpanada}
-        />	
+    <div className="card">
+        <div class="imgBox">
+            <Imagen
+                src={props.imagen} 
+            />
+        </div>
+        <div className="contentBox">
+          <h3>{props.title}</h3>
+          <h2 className="price">{props.price}</h2>
+          <a href="#" class="buy">Comprar</a>
+        </div>
     </div>
-
-  <div class="contentBox">
-    <h3>{props.title}</h3>
-    <h2 className="price">{props.price}</h2>
-    <a href="#" class="buy">Comprar</a>
-  </div>
-
-</div>
 
   )
 }
