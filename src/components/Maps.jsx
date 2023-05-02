@@ -45,6 +45,7 @@ display: flex;
 gap: 10px;
 flex-wrap: wrap;
 justify-content: center;
+background-color: #dddddd;
 `
 
 export const Maps = () => {
@@ -54,7 +55,9 @@ export const Maps = () => {
         <Texto> 
             Es un gusto poder ayudar, estamos ubicados
             en las pricipales ciudades del pais, ofreciendo
-            los mejores fritos de calidad
+            los mejores fritos de calidad.
+            orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+
         </Texto>
 
         <Imagen

@@ -2,6 +2,8 @@ import React from "react"
 import styled from '@emotion/styled'
 import CardP from "./Card_product"
 import Maps from "./Maps"
+import Questions from "./Questions"
+
 
 import ImagenPastel from "../img/pastel.png"
 import ImagenEmpanada from "../img/empanada.png"
@@ -50,9 +52,10 @@ const Home = () => {
       </Contenedor>
     
      
-  
-        <Maps/>
+      <Questions/>  
+      <Maps/>
      
+    
     
     </>
   )

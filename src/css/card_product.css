@@ -1,4 +1,4 @@
-.card {
+.card_b {
     position: relative;
     width: 300px;
     height: 480px;
@@ -9,7 +9,7 @@
    
   }
   
-  .card::before {
+  .card_b::before {
     content: "";
     position: absolute;
     top: -50%;
@@ -20,12 +20,12 @@
     transition: 0.5s;
   }
   
-  .card:hover::before {
+  .card_b:hover::before {
     top: -70%;
     transform: skewY(390deg);
   }
   
-  .card::after {
+  .card_b::after {
     content: "Fritos";
     position: absolute;
     bottom: 0;
@@ -35,7 +35,7 @@
     color: rgba(0, 0, 0, 0.1);
   }
   
-  .card .imgBox {
+  .card_b .imgBox {
     position: relative;
     width: 100%;
     display: flex;
@@ -45,18 +45,18 @@
     z-index: 1;
   }
   /*
-  .card .imgBox img {
+  .card_b .imgBox img {
       max-width: 100%;
       
       transition: .5s;
   }
   
-  .card:hover .imgBox img {
+  .card_b:hover .imgBox img {
       max-width: 50%;
         
   }
   */
-  .card .contentBox {
+  .card_b .contentBox {
     position: relative;
     padding: 20px;
     display: flex;
@@ -66,7 +66,7 @@
     z-index: 2;
   }
   
-  .card .contentBox h3 {
+  .card_b .contentBox h3 {
     font-size: 18px;
     color: white;
     font-weight: 500;
@@ -74,14 +74,14 @@
     letter-spacing: 1px;
   }
   
-  .card .contentBox .price {
+  .card_b .contentBox .price {
     font-size: 24px;
     color: white;
     font-weight: 700;
     letter-spacing: 1px;
   }
   
-  .card .contentBox .buy {
+  .card_b .contentBox .buy {
     position: relative;
     top: 100px;
     opacity: 0;
@@ -97,7 +97,7 @@
    
   }
   
-  .card:hover .contentBox .buy {
+  .card_b:hover .contentBox .buy {
     top: 0;
     opacity: 1;
   }
