@@ -1,5 +1,6 @@
 import React from "react"
 import styled from '@emotion/styled'
+import Intro from "./Intro"
 import CardP from "./Card_product"
 import Maps from "./Maps"
 import Questions from "./Questions"
@@ -34,10 +35,7 @@ const Contenedor = styled.div`
 const Home = () => {
   return (
     <>
-      <section className='hero'>
-        <h1>Los mejores FRITOS del Pais</h1>
-      </section>
-
+      <Intro />
       <Contenedor>
         <CardP title="Empanada Dorada" price="$1.500" imagen={ImagenEmpanada}  />	 
         <CardP title="Pastel Melo" price="$2.500 c/u" imagen={ImagenPastel} />
