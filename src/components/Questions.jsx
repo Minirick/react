@@ -50,76 +50,42 @@ const Questions = () => {
             <div className="card">
             <div className="card-header">
                 <a className="btn" data-bs-toggle="collapse" href="#collapseOne">
-                <Titulos>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Titulos>
+                <Titulos>¿Realizan Domicilios?</Titulos>
                 </a>
             </div>
             <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
                 <div class="card-body">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
                 dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-                dummy text ever since the 1500s, wh                    
+                book. It has survived not only five centuries, but also the leap into electronic typesetting
                 </div>
             </div>
             </div>
             <div class="card">
             <div class="card-header">
                 <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
-                <Titulos>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Titulos>
+                <Titulos>¿Servicio Contraentrega?</Titulos>
             </a>
             </div>
             <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
                 <div class="card-body">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
                 dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-                dummy text ever since the 1500s, wh                   
+                book. It has survived not only five centuries, but also the leap into electronic typesetting
                 </div>
             </div>
             </div>
              <div class="card">
             <div class="card-header">
                 <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
-                <Titulos>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Titulos>
+                <Titulos>¿Reciben tarjeta de credito/debito?</Titulos>
                 </a>
             </div>
             <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
                 <div class="card-body">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
                 dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-                dummy text ever since the 1500s, wh                   
-                </div>
-            </div>
-            </div>
-            <div class="card">
-            <div class="card-header">
-                <a class="btn" data-bs-toggle="collapse" href="#collapseFour">
-                <Titulos>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Titulos>
-                </a>
-            </div>
-            <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
-                <div class="card-body">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-                dummy text ever since the 1500s, wh                   
+                book. It has survived not only five centuries, but also the leap into electronic typesetting               
                 </div>
             </div>
             </div>
