@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
+import { GoogleMap, useJsApiLoader  } from '@react-google-maps/api';
 const containerStyle = {
   width: '1140px',
   left: '50px',
@@ -15,7 +15,7 @@ const center = {
 const MapsApi = ()=>{
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: "AIzaSyDSQlyBVBOSZtRfni4bQD6EmL2HXlA-47w"  //need to define your google api key 
+    googleMapsApiKey: ""  //need to define your google api key 
   })
 
 const [map, setMap] = React.useState(null)

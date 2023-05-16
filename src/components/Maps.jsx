@@ -38,7 +38,7 @@ export const Maps = () => {
    
     <Contenedor2>
         <Texto> 
-          Estamos ubicados en todo el territorio nacional
+          Estamos ubicados en la Universidad Surcolombiana
         </Texto>
     </Contenedor2>
 

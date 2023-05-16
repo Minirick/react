@@ -21,7 +21,7 @@ const Heading = styled.a `
 export const Card_product = (props) => {
   return (
     <div className="card_b">
-        <div class="imgBox">
+        <div className="imgBox">
             <Imagen
                 src={props.imagen} 
             />
