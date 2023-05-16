@@ -1,6 +1,8 @@
 import React from "react"
 import styled from "@emotion/styled"
-import "../css/Productos.css"
+import CardPrice from "./Card_price"
+
+
 
 
 const Informacion = styled.h1`
@@ -39,16 +41,11 @@ order: 1;
 flex-grow: 0;
 `
 const Caja = styled.div`
+width: 100%;
 display: flex;
-align-items: flex-start;
-margin: 0 auto;
-width: 1184px;
-height: 685px;
-column-count: 3;
-filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
-
-align-self: stretch;
-
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
 `
 
 const Precios = styled.h1`
@@ -85,52 +82,11 @@ const Product = () => {
       <Descripcion>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat sint perferendis eius fugit vero deserunt.</Descripcion>
 
       <Caja>
-        <div className="imgbox" id="imgbox1"><Informacion>Pasteles</Informacion>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          <Precios>$3.000</Precios>
-          <button className="button2"><Boton>Pidelo Ya</Boton></button>
-          <br></br>
-          <br></br>
-          <ol>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-          </ol>
-        </div>
-
-        <div className="imgbox2" id="imgbox2"><Informacion>Empanadas</Informacion>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          <Precios>$2.500</Precios>
-          <button className="button2"><Boton>Pidelo Ya</Boton></button>
-          <br></br>
-          <br></br>
-          <ol>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-          </ol>
-        </div>
-
-        <div className="imgbox"><Informacion>Butifarra</Informacion>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          <Precios>$10.000</Precios>
-          <button className="button2"><Boton>Pidelo Ya</Boton></button>
-          <br></br>
-          <br></br>
-          <ol>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-          </ol>
-        </div>
+        <CardPrice clase="imgbox" title="Empanada" price="$1.500"  />	 
+        <CardPrice clase="imgbox2" title="Pastel Melo" price="$2.500 c/u"  />
+        <CardPrice clase="imgbox" title="Arepa Kool" price="$2.000 c/u"  />
       </Caja>
-
+    
     </>
   )
 }
