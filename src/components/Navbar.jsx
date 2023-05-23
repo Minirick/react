@@ -24,7 +24,10 @@ const Navbar = () => {
             <li>Contacto</li>
           </Link>
 
-          <button className='button_login'>Ingresar</button>
+          {/* <Link to='/Login' className='services'>
+            <li>Contacto1</li>
+          </Link> */}
+          <a className='button_login' href="/login">Ingresar</a>
 
           
         </ul>
